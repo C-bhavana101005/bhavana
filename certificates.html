@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Certificates</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <style>
+            body{
+              background-color: darkcyan;
+             margin:0;
+             padding:0;
+            font-family: serif;
+            }
+            h1{
+             color:brown;
+             text-align:left;
+            }
+            .certificate-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                padding: 30px;
+            }
+            .certificate-container img {
+                margin: 20px;
+                border: 5px solid goldenrod;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+            .certificate-container img:hover {
+                transform: scale(1.05);
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            }
+            .navbar {
+                position: fixed;
+                top: 10px;
+                right: 10px;
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                padding: 10px 20px;
+                background-color: rgba(0, 0, 0, 0.2);
+                border-radius: 10px;
+            }
+            .navbar a {
+                text-decoration: none;
+                color:white;
+                font-size: 1.2rem;
+                padding: 5px 10px;
+                border-radius: 5px;
+                transition: color 0.3s ease, background-color 0.3s ease;
+            }
+            .navbar a:hover {
+                color: white;
+                background-color: blue;
+            }
+            .linkedin-icon {
+                color: white;
+                font-size: 1.5em;
+                margin-left: 10px;
+                transition: color 0.3s ease;
+            }
+            .linkedin-icon:hover {
+                color: lightskyblue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Certificates</h1>
+        <div class="certificate-container">
+            <img src="https://res.cloudinary.com/dz0apxmxk/image/upload/v1726804942/c1_igcj9i.jpg" alt="Certificate 1" height="200px">
+            <img src="https://res.cloudinary.com/dz0apxmxk/image/upload/v1726804977/c2_kmjprw.jpg" alt="Certificate 2" height="200px">
+            <img src="https://res.cloudinary.com/dz0apxmxk/image/upload/v1726805017/c3_p96nsn.jpg" alt="Certificate 3" height="200px">
+            <img src="https://res.cloudinary.com/dz0apxmxk/image/upload/v1726805054/c4_omkj09.jpg" alt="Certificate 4" height="200px">
+            <img src="https://res.cloudinary.com/dz0apxmxk/image/upload/v1726805091/c5_xtg8ki.jpg" alt="Certificate 5" height="200px">
+        </div>
+        <div class="navbar">
+            <a href="home2.html">Home</a>
+            <a href="About me.html">About me</a>
+            <a href="Academic Qualification.html">Academic Qualification</a>
+            <a href="Skills.html">Skills</a>
+            <a href="Certificates.html">Certificates</a>
+            <a href="Contact.html">Contact</a>
+            <a href="https://www.linkedin.com/in/your-linkedin-profile">
+                <i class="fab fa-linkedin linkedin-icon"></i>
+            </a>
+        </div>
+    </body>
+</html>

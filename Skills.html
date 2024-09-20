@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Skills</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <style>
+            body {
+                background-color: darkcyan;
+                margin: 0;
+                padding: 0;
+                font-family: 'Georgia', serif;
+                color: #333;
+            }
+            h1 {
+                text-align: left;
+                margin-top: 50px;
+                font-size: 2.5em;
+                color: brown;
+            }
+            .skills-section {
+                max-width: 800px;
+                margin: 50px auto;
+                padding: 20px;
+                background-color: rgb(195, 193, 193);
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+            .skills-section h2 {
+                font-size: 1.8em;
+                color: darkmagenta;
+                margin-bottom: 15px;
+            }
+            .skills-section ul {
+                list-style-type: none;
+                padding-left: 0;
+            }
+            .skills-section ul li {
+                font-size: 1.2em;
+                margin-bottom: 10px;
+            }
+            .skills-section ul li:before {
+                content: "\2022";
+                color: darkmagenta;
+                font-weight: bold;
+                display: inline-block; 
+                width: 1em;
+                margin-left: -1em;
+            }
+            .navbar {
+                position: fixed;
+                top: 10px;
+                right: 10px;
+                display: flex;
+                gap: 20px;
+                padding: 10px 20px;
+                background-color: rgba(0, 0, 0, 0.2);
+                border-radius: 10px;
+            }
+            .navbar a {
+                text-decoration: none;
+                color: white;
+                font-size: 1.2rem;
+                padding: 5px;
+                transition: color 0.3s ease;
+            }
+            .navbar a:hover {
+                color: blue;
+            }
+            .linkedin-icon {
+                color: white;
+                font-size: 1.5em;
+                transition: color 0.3s ease;
+            }
+            .linkedin-icon:hover {
+                color: lightskyblue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Skills :</h1>
+        <div class="skills-section">
+            <h2>Professional Skills</h2>
+            <ul>
+                <li>Project Management</li>
+                <li>Problem Solving</li>
+                <li>Creativity</li>
+                <li>Leadership</li>
+                <li>Writing and Communication Skills</li>
+            </ul>
+
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>Basics of C-Programming and Data Structures</li>
+                <li>Basics of Python Programming and Data Science</li>
+                <li>Basics of Machine Learning and Deep Learning</li>
+                <li>Basics of MySQL</li>
+                <li>HTML and CSS</li>
+            </ul>
+        </div>
+
+        <div class="navbar">
+            <a href="home2.html">Home</a>
+            <a href="About me.html">About me</a>
+            <a href="Academic Qualification.html">Academic Qualification</a>
+            <a href="Skills.html">Skills</a>
+            <a href="Certificates.html">Certificates</a>
+            <a href="Contact.html">Contact</a>
+            <a href="https://www.linkedin.com/in/your-linkedin-profile">
+                <i class="fab fa-linkedin linkedin-icon"></i>
+            </a>
+        </div>
+    </body>
+</html>
